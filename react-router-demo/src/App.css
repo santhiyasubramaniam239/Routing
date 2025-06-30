@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.navbar{
+  padding: 15px 8%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom:1px solid #ebebeb;
+}
+.logo{
+  font-weight:800;
+  font-size: 20px;
+}
+.navbar ul{
+  padding: 10px 30px;
+  }
+.navbar ul li{
+  display: inline-flex;
+  padding: 5px 10px;
+  margin: 0 10px;
+ 
+
+}
+.navbar button{
+  background-color: #333;
+  color: #fff;
+  padding:12px 25px;
+  border:0;
+  outline:0;
+  border-radius:30px;
+  cursor:pointer;
+  font-size: 16px;
+}
+.container{
+  max-width:1000px;
+  width: 1000%;
+  margin: 20px auto;
+}
+
+.navbar a{
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+}
+a.active{
+  color:teal;
+}
+.user{
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
